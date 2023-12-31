@@ -31,13 +31,8 @@ h1,h3,a {
     margin-right: 6.6666%;
 }
 
-.hide {
+.hide,.def {
     display: none;
-}
-
-.def {
-    display: none;
-    font-size: 80%;
 }
 
 #infoShow {
