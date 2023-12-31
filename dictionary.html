@@ -15,38 +15,45 @@
     </div>
     <div id="container">
         <span id="wc">32 Done'</span> <span class="spell">(32 words)</span><br><br>
-        <div class="box"><span class="word">Si</span><br><span class="spell">/ʃi/</span><br><span class="small">you</span></div>
-        <div class="box"><span class="word">me'</span><br><span class="spell">/mə/</span><br><span class="small">me, I</span></div>
-        <div class="box"><span class="word">otok</span><br><span class="spell">/o̞to̞k/</span><br><span class="small">to talk</span></div>
-        <div class="box"><span class="word">apon</span><br><span class="spell">/apo̞n/</span><br><span class="small">good</span></div>
-        <div class="box"><span class="word">miOa</span><br><span class="spell">/miθa/</span><br><span class="small">to fix, to repair</span></div>
-        <div class="box"><span class="word">suxi</span><br><span class="spell">/suxi/</span><br><span class="small">simple</span></div>
-        <div class="box"><span class="word">i'ke'</span><br><span class="spell">/ɪkə/</span><br><span class="small">bad</span></div>
-        <div class="box"><span class="word">pa'ke'l</span><br><span class="spell">/päkəl/</span><br><span class="small">to break, (curse word)</span></div>
-        <div class="box"><span class="word">xas</span><br><span class="spell">/xas/</span><br><span class="small">complicated</span></div>
-        <div class="box"><span class="word">e'ta</span><br><span class="spell">/əta/</span><br><span class="small">language</span></div>
-        <div class="box"><span class="word">kot'a</span><br><span class="spell">/ko̞t͡sa/</span><br><span class="small">consonant</span></div>
-        <div class="box"><span class="word">Beka'</span><br><span class="spell">/ʙekä/</span><br><span class="small">vowel</span></div>
-        <div class="box"><span class="word">kiO'a</span><br><span class="spell">/kiŋ͡ʘa/</span><br><span class="small">to click</span></div>
-        <div class="box"><span class="word">Don</span><br><span class="spell">/d͡ʒo̞n/</span><br><span class="small">word</span></div>
-        <div class="box"><span class="word">ne'sin</span><br><span class="spell">/nəsin/</span><br><span class="small">way, guide</span></div>
-        <div class="box"><span class="word">n'iSi</span><br><span class="spell">/ɲiʃi/</span><br><span class="small">format</span></div>
-        <div class="box"><span class="word">e't</span><br><span class="spell">/ət/</span><br><span class="small">mouth</span></div>
-        <div class="box"><span class="word">yanal</span><br><span class="spell">/ɣanal/</span><br><span class="small">channel</span></div>
-        <div class="box"><span class="word">Bopan</span><br><span class="spell">/ʙo̞pan/</span><br><span class="small">to salute, hello, welcome</span></div>
-        <div class="box"><span class="word">ve'sa</span><br><span class="spell">/vəsa/</span><br><span class="small">a lot, everyone, everything</span></div>
-        <div class="box"><span class="word">kor'up</span><br><span class="spell">/koɾup/</span><br><span class="small">group, community</span></div>
-        <div class="box"><span class="word">Zan</span><br><span class="spell">/ʐan/</span><br><span class="small">to be able to, can, possible</span></div>
-        <div class="box"><span class="word">t'~r'un</span><br><span class="spell">/t͡s͡ɾun/</span><br><span class="small">to look</span></div>
-        <div class="box"><span class="word">e'</span><br><span class="spell">/ə/</span><br><span class="small">(before the direct object)</span></div>
-        <div class="box"><span class="word">m'i'</span><br><span class="spell">/ɱɪ/</span><br><span class="small">(between any subject)</span></div>
-        <div class="box"><span class="word">y'ape'</span><br><span class="spell">/ʎapə/</span><br><span class="small">paper, flat object, website</span></div>
-        <div class="box"><span class="word">d'a</span><br><span class="spell">/ða/</span><br><span class="small">about</span></div>
-        <div class="box"><span class="word">ni</span><br><span class="spell">/ni/</span><br><span class="small">that, this</span></div>
-        <div class="box"><span class="word">n'e'n</span><br><span class="spell">/ɲən/</span><br><span class="small">here, there</span></div>
-        <div class="box"><span class="word">Ta's</span><br><span class="spell">/t͡ʃäs/</span><br><span class="small">for</span></div>
-        <div class="box"><span class="word">Ver'a</span><br><span class="spell">/ⱱ̟eɾa/</span><br><span class="small">only</span></div>
-        <div class="box"><span class="word">tan</span><br><span class="spell">/tan/</span><br><span class="small">by, from</span></div>
+        <button data-sortkey="S" onclick="toggleVisibility(this)"><span class="word">Si</span><br><span class="spell">/ʃi/</span><br><span class="def">you</span></button>
+        <button data-sortkey="m" onclick="toggleVisibility(this)"><span class="word">me'</span><br><span class="spell">/mə/</span><br><span class="def">me, I</span></button>
+        <button data-sortkey="o" onclick="toggleVisibility(this)"><span class="word">otok</span><br><span class="spell">/o̞to̞k/</span><br><span class="def">to talk</span></button>
+        <button data-sortkey="a" onclick="toggleVisibility(this)"><span class="word">apon</span><br><span class="spell">/apo̞n/</span><br><span class="def">good</span></button>
+        <button data-sortkey="m" onclick="toggleVisibility(this)"><span class="word">miOa</span><br><span class="spell">/miθa/</span><br><span class="def">to fix, to repair</span></button>
+        <button data-sortkey="s" onclick="toggleVisibility(this)"><span class="word">suxi</span><br><span class="spell">/suxi/</span><br><span class="def">simple</span></button>
+        <button data-sortkey="i'" onclick="toggleVisibility(this)"><span class="word">i'ke'</span><br><span class="spell">/ɪkə/</span><br><span class="def">bad</span></button>
+        <button data-sortkey="p" onclick="toggleVisibility(this)"><span class="word">pa'ke'l</span><br><span class="spell">/päkəl/</span><br><span class="def">to break, (curse word)</span></button>
+        <button data-sortkey="x" onclick="toggleVisibility(this)"><span class="word">xas</span><br><span class="spell">/xas/</span><br><span class="def">complicated</span></button>
+        <button data-sortkey="e'" onclick="toggleVisibility(this)"><span class="word">e'ta</span><br><span class="spell">/əta/</span><br><span class="def">language</span></button>
+        <button data-sortkey="k" onclick="toggleVisibility(this)"><span class="word">kot'a</span><br><span class="spell">/ko̞t͡sa/</span><br><span class="def">consonant</span></button>
+        <button data-sortkey="B" onclick="toggleVisibility(this)"><span class="word">Beka'</span><br><span class="spell">/ʙekä/</span><br><span class="def">vowel</span></button>
+        <button data-sortkey="k" onclick="toggleVisibility(this)"><span class="word">kiO'a</span><br><span class="spell">/kiŋ͡ʘa/</span><br><span class="def">to click</span></button>
+        <button data-sortkey="D" onclick="toggleVisibility(this)"><span class="word">Don</span><br><span class="spell">/d͡ʒo̞n/</span><br><span class="def">word</span></button>
+        <button data-sortkey="n" onclick="toggleVisibility(this)"><span class="word">ne'sin</span><br><span class="spell">/nəsin/</span><br><span class="def">way, guide</span></button>
+        <button data-sortkey="n'" onclick="toggleVisibility(this)"><span class="word">n'iSi</span><br><span class="spell">/ɲiʃi/</span><br><span class="def">format</span></button>
+        <button data-sortkey="e'" onclick="toggleVisibility(this)"><span class="word">e't</span><br><span class="spell">/ət/</span><br><span class="def">mouth</span></button>
+        <button data-sortkey="y" onclick="toggleVisibility(this)"><span class="word">yanal</span><br><span class="spell">/ɣanal/</span><br><span class="def">channel</span></button>
+        <button data-sortkey="B" onclick="toggleVisibility(this)"><span class="word">Bopan</span><br><span class="spell">/ʙo̞pan/</span><br><span class="def">to salute, hello, welcome</span></button>
+        <button data-sortkey="v" onclick="toggleVisibility(this)"><span class="word">ve'sa</span><br><span class="spell">/vəsa/</span><br><span class="def">a lot, everyone, everything</span></button>
+        <button data-sortkey="k" onclick="toggleVisibility(this)"><span class="word">kor'up</span><br><span class="spell">/koɾup/</span><br><span class="def">group, community</span></button>
+        <button data-sortkey="Z" onclick="toggleVisibility(this)"><span class="word">Zan</span><br><span class="spell">/ʐan/</span><br><span class="def">to be able to, can, possible</span></button>
+        <button data-sortkey="t'" onclick="toggleVisibility(this)"><span class="word">t'~r'un</span><br><span class="spell">/t͡s͡ɾun/</span><br><span class="def">to look</span></button>
+        <button data-sortkey="e'" onclick="toggleVisibility(this)"><span class="word">e'</span><br><span class="spell">/ə/</span><br><span class="def">(before the direct object)</span></button>
+        <button data-sortkey="m'" onclick="toggleVisibility(this)"><span class="word">m'i'</span><br><span class="spell">/ɱɪ/</span><br><span class="def">(between any subject)</span></button>
+        <button data-sortkey="y'" onclick="toggleVisibility(this)"><span class="word">y'ape'</span><br><span class="spell">/ʎapə/</span><br><span class="def">paper, flat object, website</span></button>
+        <button data-sortkey="d'" onclick="toggleVisibility(this)"><span class="word">d'a</span><br><span class="spell">/ða/</span><br><span class="def">about</span></button>
+        <button data-sortkey="n" onclick="toggleVisibility(this)"><span class="word">ni</span><br><span class="spell">/ni/</span><br><span class="def">that, this</span></button>
+        <button data-sortkey="n'" onclick="toggleVisibility(this)"><span class="word">n'e'n</span><br><span class="spell">/ɲən/</span><br><span class="def">here, there</span></button>
+        <button data-sortkey="T" onclick="toggleVisibility(this)"><span class="word">Ta's</span><br><span class="spell">/t͡ʃäs/</span><br><span class="def">for</span></button>
+        <button data-sortkey="V" onclick="toggleVisibility(this)"><span class="word">Ver'a</span><br><span class="spell">/ⱱ̟eɾa/</span><br><span class="def">only</span></button>
+        <button data-sortkey="t" onclick="toggleVisibility(this)"><span class="word">tan</span><br><span class="spell">/tan/</span><br><span class="def">by, from</span></button>
     </div>
+    <div id="infoShow" class="hide">
+        <button id="close" onclick="closeElement()">x</button>
+        <span class="name">word</span><br>
+        <span class="wspell">word spelling</span><br><br>
+        <span class="definition">definition</span>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
