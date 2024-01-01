@@ -1,5 +1,5 @@
 function customAlphabeticalSort(a, b) {
-    const customAlphabet = ["a", "a'", "p", "b", "B", "V", "e", "e'", "s", "S", "c", "z", "z'", "Z", "t", "O", "T", "t'", "d", "d'", "D", "f", "v", "h", "x", "i", "i'", "j", "J", "k", "g", "y", "l", "y'", "m", "m'", "n", "N", "n'", "o", "r", "r'", "R", "u", "O'", "-"];
+    const customAlphabet = ["a", "a'", "p", "b", "B", "V", "e", "e'", "s", "s'", "S", "z", "z'", "Z", "t", "O", "T", "t'", "d", "d'", "D", "f", "v", "h", "x", "i", "i'", "j", "J", "k", "g", "y", "l", "y'", "m", "m'", "n", "N", "n'", "o", "r", "r'", "R", "u", "O'", "-"];
     const indexA = customAlphabet.indexOf(a.getAttribute("data-sortkey"));
     const indexB = customAlphabet.indexOf(b.getAttribute("data-sortkey"));
     return indexA - indexB;
