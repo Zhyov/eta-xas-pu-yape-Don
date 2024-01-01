@@ -3,7 +3,7 @@ function customAlphabeticalSort(a, b) {
     const indexA = customAlphabet.indexOf(a.getAttribute("data-sortkey"));
     const indexB = customAlphabet.indexOf(b.getAttribute("data-sortkey"));
     return indexA - indexB;
-};
+}
 
 function sortItems() {
     const sortableDiv = document.getElementById("container");
