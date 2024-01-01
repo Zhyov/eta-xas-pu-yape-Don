@@ -1,16 +1,33 @@
 * {
     font-size: 500;
     font-family: 'Arial';
-    color: rgb(255, 255, 255)
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(175, 175, 175);
 }
 
 body {
+    color: rgb(255, 255, 255);
     background: rgb(0, 0, 0);
 }
 
 h1,h3,a {
     font-family: 'Varela Round';
     font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    color: rgb(255, 255, 255);
 }
 
 #title {
@@ -21,6 +38,7 @@ h1,h3,a {
     padding-right: 7%;
     padding-top: 2.6666%;
     padding-bottom: 1.36666%;
+    color: rgb(255, 255, 255);
 }
 
 #container {
@@ -29,9 +47,10 @@ h1,h3,a {
     display: block;
     margin-left: 6.6666%;
     margin-right: 6.6666%;
+    color: rgb(255, 255, 255);
 }
 
-.hide,.def {
+.hide,.def,.cf {
     display: none;
 }
 
@@ -48,6 +67,7 @@ h1,h3,a {
     border-radius: 7%;
     width: 20%;
     height: 40%;
+    color: rgb(255, 255, 255);
 }
 
 #close {
@@ -80,18 +100,23 @@ h1,h3,a {
     cursor: pointer;
 }
 
-#container button:hover,#close:hover {
+#container button:hover,#close:hover,#theme:hover {
     transition-duration: 0.1s;
     scale: 1.05;
 }
 
-.word,.name {
+.word,.name,.otext {
     font-family: 'Varela Round';
     font-weight: bold;
 }
 
-.small,.definition {
+.definition,.origin {
     font-size: 80%;
+}
+
+.small {
+    font-size: 60%;
+    color: rgb(175, 175, 175);
 }
 
 .spell,.wspell {
