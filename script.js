@@ -94,6 +94,8 @@ document.getElementById("searchBar").addEventListener("input", function() {
     } else {
         countItems(0);
     }
+
+    sortItems();
 });
 
 starterBox();
