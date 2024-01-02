@@ -41,7 +41,7 @@ button {
     color: rgb(255, 255, 255);
 }
 
-#container {
+#container,#searchResults,#sc {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -50,8 +50,19 @@ button {
     color: rgb(255, 255, 255);
 }
 
+#searchBar {
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 7%;
+    color: rgb(255, 255, 255);
+    width: 15%;
+    font-size: larger;
+    margin: 0.6666% 0% 0.6666% 0.3333%;
+    padding: 0.5%;
+}
+
 .hide,.def,.cf {
-    display: none;
+    display: none !important;
 }
 
 #infoShow {
@@ -85,7 +96,7 @@ button {
     cursor: pointer;
 }
 
-#container button {
+#container button,#searchResults button {
     transition-duration: 0.15s;
     font-size: larger;
     background: rgb(0, 0, 0);
@@ -100,7 +111,7 @@ button {
     cursor: pointer;
 }
 
-#container button:hover,#close:hover,#theme:hover {
+#container button:hover,#close:hover,#theme:hover,#searchResults button:hover {
     transition-duration: 0.1s;
     scale: 1.05;
 }
